@@ -1,4 +1,4 @@
-# Backcourt Code Snippets
+# Snippets Library
 Custom code snippets library for [Backcourt Development plugins](https://woocommerce.com/vendor/backcourt-development/)
 
 ## [WooCommerce Name Your Price](https://woocommerce.com/products/name-your-price/)
