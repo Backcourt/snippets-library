@@ -1,2 +1,2 @@
-# [WooCommerce Free Gift Coupons](https://woocommerce.com/products/free-gift-coupons/)
+# WooCommerce Free Gift Coupons
 A coupon type that adds a free product to the cart.

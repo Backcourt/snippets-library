@@ -1,2 +1,2 @@
-# [WooCommerce Mix and Match Products](https://woocommerce.com/products/woocommerce-mix-and-match-products/)
+# WooCommerce Mix and Match Products
 Group products together into containers of a specific size.

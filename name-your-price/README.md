@@ -1,2 +1,2 @@
-# [WooCommerce Name Your Price](https://woocommerce.com/products/name-your-price/)
+# WooCommerce Name Your Price
 Allow customers to enter their own prices.
