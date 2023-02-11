@@ -11,3 +11,4 @@ Allow customers to enter their own prices.
 [Add placeholder to input](frontend/add-placeholder-to-input)
 [Change validation messages](frontend/change-validation-messages)
 [Pre-fill price input](frontend/pre-fill-price-input.md)
+[Redirect after add to cart](frontend/redirect-on-add-to-cart)
