@@ -5,3 +5,4 @@ Allow customers to enter their own prices.
 
 ## Table of Contents
 [Add Name Your Price support to custom product types](add-support-for-custom-product-type.md)
+[Add product to cart programmatically with custom price](add-to-cart-programmatically)
