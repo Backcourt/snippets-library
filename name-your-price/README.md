@@ -9,6 +9,7 @@ Allow customers to enter their own prices.
 + [Add product to cart programmatically with custom price](add-to-cart-programmatically)
 
 ### Frontend Display
++ [Add CSS class to the input](frontend/add-class-to-input)
 + [Add placeholder to input](frontend/add-placeholder-to-input)
 + [Change validation messages](frontend/change-validation-messages)
 + [Pre-fill price input](frontend/pre-fill-price-input.md)
