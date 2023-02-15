@@ -4,7 +4,7 @@ Custom code snippets library for [Backcourt Development plugins](https://woocomm
 ## [WooCommerce Name Your Price](name-your-price)
 Allow customers to enter their own prices.
 
-## [WooCommerce Mix and Match Products](mix-and-match-products)
+## [WooCommerce Mix and Match Products](mix-and-match)
 Group products together into containers of a specific size.
 
 ## [WooCommerce Free Gift Coupons](free-gift-coupons)
