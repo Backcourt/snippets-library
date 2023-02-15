@@ -6,6 +6,7 @@ Group products together into containers of a specific size.
 
 ## Compatibility
 + [Disable Cost of Goods compatibility module](compatibility/disable-cost-of-goods-compat.md)
++ [Disable ShipStation compatibility module](compatibility/disable-shipstation-compat.md)
 
 ## Frontend Display
 
