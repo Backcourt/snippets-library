@@ -6,12 +6,12 @@ Allow customers to enter their own prices.
 
 ## Table of Contents
 + [Add Name Your Price support to custom product types](add-support-for-custom-product-type.md)
-+ [Add product to cart programmatically with custom price](add-to-cart-programmatically)
++ [Add product to cart programmatically with custom price](add-to-cart-programmatically.md)
 
 ### Frontend Display
-+ [Add CSS class to the input](frontend/add-class-to-input)
-+ [Add placeholder to input](frontend/add-placeholder-to-input)
-+ [Change validation messages](frontend/change-validation-messages)
-+ [Pre-fill price input](frontend/pre-fill-price-input.md)
-+ [Redirect after add to cart](frontend/redirect-on-add-to-cart)
-+ [Remove the minimum price template](frontend/remove-minimum-price-template)
++ [Add CSS class to the input](frontend/add-class-to-input.md)
++ [Add placeholder to input](frontend/add-placeholder-to-input.md)
++ [Change validation messages](frontend/change-validation-messages.md)
++ [Pre-fill price input](frontend/pre-fill-price-input.md.md)
++ [Redirect after add to cart](frontend/redirect-on-add-to-cart.md)
++ [Remove the minimum price template](frontend/remove-minimum-price-template.md)
