@@ -5,7 +5,7 @@ Group products together into containers of a specific size.
 |---|
 
 ## Compatibility
-+ [Disable Cost of Goods compatibility module](disable-cost-of-goods-compat.md)
++ [Disable Cost of Goods compatibility module](compatibility/disable-cost-of-goods-compat.md)
 
 ## Frontend Display
 
