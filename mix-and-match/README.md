@@ -5,6 +5,7 @@ Group products together into containers of a specific size.
 |---|
 
 ## Compatibility
++ [Prevent adding Mix and Match products to existing subscriptions](compatibility/apfs-prevent-adding-mnm-to-existing-sub.md)
 + [Disable Cost of Goods compatibility module](compatibility/disable-cost-of-goods-compat.md)
 + [Disable ShipStation compatibility module](compatibility/disable-shipstation-compat.md)
 
