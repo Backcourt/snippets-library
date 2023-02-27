@@ -4,6 +4,11 @@ Group products together into containers of a specific size.
 |[Buy now](https://woocommerce.com/products/woocommerce-mix-and-match-products/)|
 |---|
 
+
+## Configuration
++ [Force child item variety](configuration/force-child-item-variety-factor.md)
++ [Limit child items to a maximum of 2 each](configuration/limit-child-items-max.md)
+
 ## Compatibility
 + [Prevent adding Mix and Match products to existing subscriptions](compatibility/apfs-prevent-adding-mnm-to-existing-sub.md)
 + [Disable Cost of Goods compatibility module](compatibility/disable-cost-of-goods-compat.md)
