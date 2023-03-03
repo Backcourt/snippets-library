@@ -12,6 +12,6 @@ Allow customers to enter their own prices.
 + [Add CSS class to the input](frontend/add-class-to-input.md)
 + [Add placeholder to input](frontend/add-placeholder-to-input.md)
 + [Change validation messages](frontend/change-validation-messages.md)
-+ [Pre-fill price input](frontend/pre-fill-price-input.md.md)
++ [Pre-fill price input](frontend/pre-fill-price-input.md)
 + [Redirect after add to cart](frontend/redirect-on-add-to-cart.md)
 + [Remove the minimum price template](frontend/remove-minimum-price-template.md)
