@@ -5,5 +5,5 @@ By default, Mix and Match defaults to discounting the per-item price from the _r
 However, that's switchable with the following:
 
 ```[php]
-add_filter( 'wc_mnm_child_item_discount_from_regular', '__return_true' );
+add_filter( 'wc_mnm_child_item_discount_from_regular', '__return_false' );
 ```
