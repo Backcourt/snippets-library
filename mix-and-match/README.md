@@ -8,6 +8,7 @@ Group products together into containers of a specific size.
 ## Configuration
 + [Force child item variety](configuration/force-child-item-variety-factor.md)
 + [Limit child items to a maximum of 2 each](configuration/limit-child-items-max.md)
++ [Set initial child item input value to zero](configuration/set-child-items-to-zero.md)
 
 ## Compatibility
 + [Prevent adding Mix and Match products to existing subscriptions](compatibility/apfs-prevent-adding-mnm-to-existing-sub.md)
