@@ -8,6 +8,7 @@ The frontend javascript has multiple jQuery events.
 
 You can use this event to integrate with your plugin by listening for the event and getting the currently entered price:
 
+```
 /**
  * Do something when the price is updated
  */
@@ -22,3 +23,4 @@ function wc_nyp_price_updated_listener() {
     ' );
 }
 add_action( 'wp_enqueue_scripts', 'wc_nyp_price_updated_listener', 99 );
+```
