@@ -15,3 +15,6 @@ Allow customers to enter their own prices.
 + [Pre-fill price input](frontend/pre-fill-price-input.md)
 + [Redirect after add to cart](frontend/redirect-on-add-to-cart.md)
 + [Remove the minimum price template](frontend/remove-minimum-price-template.md)
+
+### Integration
++ [Custom script events](compatibility/frontend-events.md)
