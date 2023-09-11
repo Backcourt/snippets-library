@@ -7,6 +7,7 @@ Allow customers to enter their own prices.
 ## General extensibility
 + [Add Name Your Price support to custom product types](add-support-for-custom-product-type.md)
 + [Add product to cart programmatically with custom price](add-to-cart-programmatically.md)
++ [Invalidate a coupon when NYP product is in cart](invalidate-coupon.md)
 
 ### Frontend Display
 + [Add CSS class to the input](frontend/add-class-to-input.md)
