@@ -9,6 +9,9 @@ Allow customers to enter their own prices.
 + [Add product to cart programmatically with custom price](add-to-cart-programmatically.md)
 + [Invalidate a coupon when NYP product is in cart](invalidate-coupon.md)
 
+### Cart Validation
++ [Strict Sold Individually](configuration/strict-sold-individually.md)
+
 ### Frontend Display
 + [Add CSS class to the input](frontend/add-class-to-input.md)
 + [Add placeholder to input](frontend/add-placeholder-to-input.md)
