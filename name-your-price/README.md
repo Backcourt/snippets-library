@@ -4,6 +4,9 @@ Allow customers to enter their own prices.
 |[Buy now](https://woocommerce.com/products/name-your-price/)|
 |---|
 
+## Product Meta
++ [Name Your Price meta fields](product-meta.md)
+
 ## General extensibility
 + [Add Name Your Price support to custom product types](add-support-for-custom-product-type.md)
 + [Add product to cart programmatically with custom price](add-to-cart-programmatically.md)
