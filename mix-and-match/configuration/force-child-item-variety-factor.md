@@ -16,10 +16,10 @@ The following checks if the Mix and Match product has a maximum size and if so, 
  * @param obj $product WC_Product_Mix_and_Match the container product object
  */
 function kia_limit_max_mnm_quantity( $max_qty, $child_item, $product ) {
-	$variety       = .2; // No one product can make up more than 20% of container.
+    $variety       = .2; // No one product can make up more than 20% of container.
     $container_max = $product->get_max_container_size();
-    
-	if ( $container_max ) {
+
+    if ( $container_max ) {
         $child_max = floor( $container_max * $variety );
         $max_qty   = $max_qty > 0 ? min( $max_qty, $child_max ) : $child_max;
     }
