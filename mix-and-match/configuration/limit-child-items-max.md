@@ -1,4 +1,4 @@
-# Force child item variety factor
+# Limit child item max quantity
 
 By default Mix and Match allows the customer full control of their configuration... their options only limited by stock. 
 
