@@ -4,7 +4,7 @@ By default Mix and Match orders the child products found in a category by title.
 
 ## Order by date
 
-The following should order the products by published date from newest to oldest. To go from oldest to newest you'd switch the 'order' param value to 'ASC'.
+The following should order the products by published date from newest to oldest. To go from oldest to newest you'd switch the `order` param value to `ASC`.
 
 
 ```[php]
