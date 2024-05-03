@@ -14,10 +14,11 @@ The following should order the products by published date from newest to oldest.
  * @param  array $args
  * @return array
  */
-function wc_mnm_sort_query_products_by_categories_args( $args ) {
+function wc_mnm_sort_category_children_by_date( $args ) {
     $args['orderby'] = 'date';
     $args['order'] = 'DESC';
     return $args;
 }
-add_filter( 'wc_mnm_query_products_by_categories_args', 'wc_mnm_sort_query_products_by_categories_args' );
+add_filter( 'wc_mnm_query_products_by_categories_args', 'wc_mnm_sort_category_children_by_date' );
+```
 ```
