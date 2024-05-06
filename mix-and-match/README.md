@@ -17,6 +17,9 @@ Group products together into containers of a specific size.
 + [Disable Cost of Goods compatibility module](compatibility/disable-cost-of-goods-compat.md)
 + [Disable ShipStation compatibility module](compatibility/disable-shipstation-compat.md)
 
+## Customization
++ [Add to cart programatically](customization/add-to-cart-programatically.md)
+
 ## Validation
 + [Strict Sold Individually](validation/strict-sold-individually.md)
 
