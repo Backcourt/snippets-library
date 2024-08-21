@@ -31,3 +31,4 @@ Group products together into containers of a specific size.
 ### Child Items
 + [Discount from sale price](frontend/child-items/discount-from-sale-price.md)
 + [Display Advanced Custom Field data](frontend/child-items/display-acf-data.md)
++ [Prevent display of child item permalinks](frontend/child-items/remove-permalinks.md)
