@@ -14,8 +14,8 @@ $mnm_config = array(
 	),
 	301 => array(                       
 		'product_id'        => 300,           // ID of child product.
-        'variation_id'      => 301,           // Variation ID of the child product.
-        'variation'         => array( 'pa_color' => 'blue' ) // Variation attributes.
+        	'variation_id'      => 301,           // Variation ID of the child product.
+        	'variation'         => array( 'pa_color' => 'blue' ) // Variation attributes.
 		'quantity'          => 3,             // Qty of child product.
 	)
 );
@@ -31,9 +31,9 @@ In addition to the `$mnm_config` variable above, we can add the mix and match pr
 
 ```[php]
 $container_id = 99;
-$quantity = 1;
+$quantity     = 1;
 $variation_id = 0;
-$variation = array();
+$variation    = array();
 
 $cart_item_data = array( 'mnm_config' => $mnm_config );
 
