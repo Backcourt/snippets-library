@@ -9,12 +9,12 @@ To enforce a stricter "sold individually" check you can force WooCommerce to _on
 
 
 /**
- * Attach hooks only when MNM is active.
+ * Attach hooks only when NYP is active.
  */
 function wc_mnm_sold_individually_init() {
 	add_filter( 'woocommerce_cart_id', 'wc_mnm_force_sold_individually', 10, 5 );
 }
-add_action( 'woocommerce_mnm_loaded', 'wc_mnm_sold_individually_init' );
+add_action( 'wc_nyp_loaded', 'wc_nyp_strict_sold_individually' );
 
 /**
  * Regenerate a cart ID that *only* includes the Product ID
@@ -26,13 +26,15 @@ add_action( 'woocommerce_mnm_loaded', 'wc_mnm_sold_individually_init' );
  * @param array $cart_item_data other cart item data passed which affects this items uniqueness in the cart.
  * @return string 
  */
-function wc_mnm_force_sold_individually( $cart_id, $product_id, $variation_id, $variation, $cart_item_data ) {
+function wc_nyp_strict_sold_individually( $cart_id, $product_id, $variation_id, $variation, $cart_item_data ) {
 
-	if ( 'mix-and-match' === WC_Product_Factory::get_product_type( $product_id ) ) {
+	$nyp_id = $variation_id ? $variation_id : $product_id;
+
+	if ( WC_Name_Your_Price_Helpers::is_nyp( $nyp_id  ) ) {
 
 		$product = wc_get_product( $product_id );
 
-		if ( $product->is_sold_individually() ){
+		if ( $product->is_sold_individually() ) {
 
 			$id_parts = array( $product_id );
 
