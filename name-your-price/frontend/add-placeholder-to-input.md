@@ -2,6 +2,10 @@
 
 The placeholder is what is visible in the input before any value is entered. It can help prompt customers to enter a value there.
 
+## Accessibility notice
+
+It should be noted that placeholders are bad for users who rely on keyboard navigation. This is why they were explicitly removed from Name Your Price in v3.0.
+
 The placeholder can be added via the following:
 
 ```[php]

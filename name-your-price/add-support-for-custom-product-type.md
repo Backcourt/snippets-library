@@ -19,7 +19,7 @@ function kia_add_simple_nyp_supported_type( $types ) {
 add_filter( 'wc_nyp_simple_supported_types', 'kia_add_simple_nyp_supported_type' );
 ```
 
-Extending the variable product type is a lot more complex, and we're a lot less certain this will work on its own without additional customizations. Not for a varible-ish type you'd need to declare support for the variable-ish type _and_ the variation using the snippet above for simple-ish products.
+Extending the variable product type is a lot more complex, and we're a lot less certain this will work on its own without additional customizations. Note for a varible-ish type you'd need to declare support for the variable-ish type _and_ the variation using the snippet above for simple-ish products.
 
 ```[php]
 /**
