@@ -14,7 +14,7 @@ To enforce a stricter "sold individually" check you can force WooCommerce to _on
 function wc_mnm_sold_individually_init() {
 	add_filter( 'woocommerce_cart_id', 'wc_mnm_force_sold_individually', 10, 5 );
 }
-add_action( 'woocommerce_mnm_loaded', 'wc_mnm_sold_individually_init' );
+add_action( 'wc_mnm_loaded', 'wc_mnm_sold_individually_init' );
 
 /**
  * Regenerate a cart ID that *only* includes the Product ID
