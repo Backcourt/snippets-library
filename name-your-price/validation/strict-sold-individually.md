@@ -6,8 +6,6 @@ To enforce a stricter "sold individually" check you can force WooCommerce to _on
 
 
 ```[php]
-
-
 /**
  * Attach hooks only when NYP is active.
  */
