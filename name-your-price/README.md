@@ -16,6 +16,7 @@ Allow customers to enter their own prices.
 + [Strict Sold Individually](configuration/strict-sold-individually.md)
 
 ### Frontend Display
++ [Add Buy Now Button with set price](frontend/buy-now-button.md)
 + [Add CSS class to the input](frontend/add-class-to-input.md)
 + [Add placeholder to input](frontend/add-placeholder-to-input.md)
 + [Change validation messages](frontend/change-validation-messages.md)
