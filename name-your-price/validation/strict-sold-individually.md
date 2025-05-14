@@ -4,6 +4,8 @@ By default WooCommerce generates a cart ID from the product ID and variation ID 
 
 To enforce a stricter "sold individually" check you can force WooCommerce to _only_ consider the product and variation IDs when generating the cart ID. With this snippet, WooCommerce will ignore the configuration (and any other cart data) when comparing Name Your Price enabled products to products in the cart.
 
+|[Download as a plugin](https://github.com/Backcourt/wc-nyp-sold-individually/releases/latest/)|
+|---|
 
 ```[php]
 /**
