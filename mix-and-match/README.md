@@ -22,6 +22,7 @@ Group products together into containers of a specific size.
 
 ## Customization
 + [Add to cart programatically](customization/add-to-cart-programatically.md)
++ [Include variations in category contents](customization/query-variations.md)
 
 ## Validation
 + [Strict Sold Individually](validation/strict-sold-individually.md)
