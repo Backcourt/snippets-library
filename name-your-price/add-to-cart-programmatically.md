@@ -10,6 +10,6 @@ Price information is passed in the final `$cart_item_data` parameter of the WooC
 $cart_item_data = array( 'nyp' => 99.99 );
 
 if ( apply_filters( 'woocommerce_add_to_cart_validation', true, $product_id, $quantity, $variation_id, $variation, $cart_item_data ) ) {
-	wc()->cart->add_to_cart( $container_id, $quantity, $variation_id, $variation, $cart_item_data );
+	wc()->cart->add_to_cart( $product_id, $quantity, $variation_id, $variation, $cart_item_data );
 }
 ```
